@@ -1,0 +1,6 @@
+framework module Pods_TVOS_SampleApplication {
+  umbrella header "Pods-TVOS-SampleApplication-umbrella.h"
+
+  export *
+  module * { export * }
+}

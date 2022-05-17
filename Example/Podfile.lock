@@ -1,0 +1,23 @@
+PODS:
+  - IQNativeVideoPlayerClient (1.0.0):
+    - IQVideoPlayer
+  - IQVideoPlayer (1.0.7.3)
+
+DEPENDENCIES:
+  - IQNativeVideoPlayerClient (from `../`)
+
+SPEC REPOS:
+  https://github.com/WynkLimited/iqvideoplayer-specs.git:
+    - IQVideoPlayer
+
+EXTERNAL SOURCES:
+  IQNativeVideoPlayerClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IQNativeVideoPlayerClient: 7c402d869ba48c16ccb9a35c795c18d43348d293
+  IQVideoPlayer: 2abd7a3d24c247a43cc4f5c6fb43f62879201e91
+
+PODFILE CHECKSUM: a29191172327857419fd5d0bc52c3ee9bd5fc177
+
+COCOAPODS: 1.11.3

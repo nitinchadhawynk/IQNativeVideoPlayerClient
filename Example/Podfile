@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/WynkLimited/iqvideoplayer-specs.git'
+
+use_frameworks!
+
+target 'IQNativeVideoPlayerClient_Example' do
+  platform :ios, '13.0'
+  pod 'IQNativeVideoPlayerClient', :path => '../'
+end
+
+target 'TVOS-SampleApplication' do
+  platform :tvos, '15.0'
+  pod 'IQNativeVideoPlayerClient', :path => '../'
+end

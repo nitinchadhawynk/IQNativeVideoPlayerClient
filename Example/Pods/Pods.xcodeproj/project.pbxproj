@@ -1,0 +1,1525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0507B4CF97296FC6F45BF337CA961965 /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7D43AAB7261F80B2CFCCE20503991 /* MasterPlaylist.swift */; };
+		081BD43DC90CFFA57772EBAA6493A066 /* IQVideoPlayer-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68BC7D5C078D3663AAE63A3AED249F /* IQVideoPlayer-tvOS-dummy.m */; };
+		0D3270C8D852EDAC4D581276CC0A47E1 /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F0DDD4A10CF43B1E59D42AA2C26F1 /* MediaSegment.swift */; };
+		12D3829F670E7408CA9584C874AAA03A /* IQPlayerItem+MultiAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF43ACC429588CB3EF2E6693517F0C0 /* IQPlayerItem+MultiAudio.swift */; };
+		139A1509BD71D5AA65BBB13BABE70EA0 /* IQPlayerItem+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F3ECD25F3D4607DE1722C6A40EE50 /* IQPlayerItem+Live.swift */; };
+		16D20971F27888A9940B6FAEEDDF3318 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C25F44A843351AE013F79C975D0671 /* StreamReader.swift */; };
+		181F8542B7E067E51D7A6E2CC2E9122B /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F211725E23C9E47E3955162356F712 /* FileBufferedReader.swift */; };
+		1820FF62194F23999CCCA4A24332549B /* IQPlayerItem+Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4087B371F1CF60B0900B57C14F7AA8F4 /* IQPlayerItem+Subtitles.swift */; };
+		1911084AF4B9AD140C18D82A612923B3 /* IQPlayerPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FF88157057ECC86BCE5F92F7974A94 /* IQPlayerPerformance.swift */; };
+		191E7B62E766291DE3F3C886A2BBAE20 /* IQPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54F1ABC89721F66D0EC153E2CD9B96 /* IQPlayerView.swift */; };
+		1C8712768C5161A1E11A2812AA2E62A7 /* IQPlayerItem+MultiAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF43ACC429588CB3EF2E6693517F0C0 /* IQPlayerItem+MultiAudio.swift */; };
+		1EA1A5922BF201BA600B782F4169E3FD /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A1A053076C45D2F2F0DFD916FF1825 /* NSURLExtension.swift */; };
+		1EA46958AC78A7E9E954D96E46665808 /* IQPlayerSeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10310F659DCB53EB6CC3B9F4B00B0311 /* IQPlayerSeek.swift */; };
+		2151FEFA03C680696D11B5961D640508 /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74093D28DFA067D04DA67551ECFBDB38 /* ReaderBuilder.swift */; };
+		21ED76A126A9E5F17C35BB1D910750A5 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B105EE26FCEA2064064A67F3BCD8A /* ActivityIndicatorView.swift */; };
+		23F017B05545FD575EEC30F5CC983F68 /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE3AE208897BC04991BA81A34A2E57 /* StringBufferedReader.swift */; };
+		23FBBD73FC5E0EE192C946D897DCE0D2 /* IQVideoPlayer-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D7570DD18DB54CBE56758DF337B46 /* IQVideoPlayer-iOS-dummy.m */; };
+		24EF80B6A497854E42EF00318FEE1496 /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7D43AAB7261F80B2CFCCE20503991 /* MasterPlaylist.swift */; };
+		26F6DEC632ED52D6894A47AB711C432A /* IQPlayerPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FF88157057ECC86BCE5F92F7974A94 /* IQPlayerPerformance.swift */; };
+		29051E57ECA7E55755B73485624EA99A /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B105EE26FCEA2064064A67F3BCD8A /* ActivityIndicatorView.swift */; };
+		2AD8FEF1474F043166BB1A079D427AAE /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69658B438D77B6F575D1414DDEB487E7 /* BufferedReader.swift */; };
+		2B94C3E2EDE20557AAC1EE484A9F7CD3 /* Pods-IQNativeVideoPlayerClient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 544EBD8AFA9E841EC7282EC8528B2D92 /* Pods-IQNativeVideoPlayerClient_Example-dummy.m */; };
+		2C10C3A91512E7C6C66F76946A0B5B73 /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663497763F8CB5565C82F5AE5B11411 /* ManifestBuilder.swift */; };
+		394394E59C69F7D36627E7BAFBCF35C1 /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE12810D175102A0A1B27CF6E712AD /* MediaPlaylist.swift */; };
+		3BB0AD4F32C04A4B28C85C2ECA552D00 /* IQPlayer+AccessLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4409C4F545B902B9F0865601F721C /* IQPlayer+AccessLog.swift */; };
+		3BFC233512BAAA8473F740936519387A /* IQPlayableAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4565353DF406BED866CB675220672D8 /* IQPlayableAction.swift */; };
+		3D206FE3C58F15C22EEA8014EF3AB079 /* Pods-TVOS-SampleApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 590524D2440CB9883EF97EE381C459F4 /* Pods-TVOS-SampleApplication-dummy.m */; };
+		403059A52B02D6E05287041813D78872 /* IQNativeVideoPlayerClient-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 233BE58DB637264A3BFB3FDAF0BCAC31 /* IQNativeVideoPlayerClient-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A7499690E0CE6C60AEBA80443CFB16 /* IQPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54F1ABC89721F66D0EC153E2CD9B96 /* IQPlayerView.swift */; };
+		40F00E8976F557798F05DA4B0DB0C0F9 /* IQNativeVideoPlayerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475823B02CE0ECC16F6FC130704A082 /* IQNativeVideoPlayerOutput.swift */; };
+		415D53E4F3A7ACC2632626AD73ACC84E /* IQPlayerLifeCycleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E3972EEB87C2499C8AFC2A992267C /* IQPlayerLifeCycleEvent.swift */; };
+		4747A0A4219423FE8DE9461E3A26B197 /* IQPlayerItem+Bitrates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149909AE57A60760204BEA03794E6CD0 /* IQPlayerItem+Bitrates.swift */; };
+		4ABCFE9722F4580F23573723EDF29115 /* IQNativeVideoPlayerClient-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CCCC0867FD3B465AE0F79E94786021 /* IQNativeVideoPlayerClient-iOS-dummy.m */; };
+		4CD6EAEC1A069F8035E217B7108DC351 /* IQAssetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70781B25995E8ED48FD9D046FBA95ADF /* IQAssetLoader.swift */; };
+		4DD7EC1FDF475840000892977105620D /* IQPlayerItemOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34D74B3E4B566C201428147C3BA9FC3 /* IQPlayerItemOptions.swift */; };
+		4FC79086F0B48E122394C4BE2C6A453B /* IQPlayerSeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10310F659DCB53EB6CC3B9F4B00B0311 /* IQPlayerSeek.swift */; };
+		51099E5ECBF1DA80A792FEDD8E7EDE86 /* IQPlaybackOutputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691423D074FF700A8AB1EE25F00A9CD4 /* IQPlaybackOutputManager.swift */; };
+		53CF5EAF580B263CCFC32F5CF8BA665B /* IQNativePlayer+PlaybackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC65BCB1A588639541078BF2376A92C /* IQNativePlayer+PlaybackDelegate.swift */; };
+		54083585039E6425E44075E8B8328B17 /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663497763F8CB5565C82F5AE5B11411 /* ManifestBuilder.swift */; };
+		55BCEF127EF7DA0CE4FBAF7555A29609 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C186E094297AE0E9042562C3FE68B /* StringExtensions.swift */; };
+		56B7410F421C298F9773D49F3DE4A438 /* IQPlayerViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DD3975660598188310EB05E5E9BF56 /* IQPlayerViewProtocol.swift */; };
+		589571C7C16D09CBFDDE7DD3BF76F963 /* IQPlayerLifeCycleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E3972EEB87C2499C8AFC2A992267C /* IQPlayerLifeCycleEvent.swift */; };
+		596B42430FDE545F08772552A9EDC5F9 /* IQPlayer+Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB14E7BB00A1DB657C018C6AF90AEA /* IQPlayer+Status.swift */; };
+		5A7A73B90C31604815C4BDB139900F87 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72750955D732077334C1B378DB436A /* Utility.swift */; };
+		5B1C547CF5BFDF878D614B48AD346EEC /* IQPlaybackOutputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691423D074FF700A8AB1EE25F00A9CD4 /* IQPlaybackOutputManager.swift */; };
+		5F919D8F82A8786AB63079246AADA757 /* IQPlayerItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F43507FC1F0C5A2689E0D2D094AE31 /* IQPlayerItemDelegate.swift */; };
+		60064E6E2ED15888ED7BB82D0B591B1B /* IQPlayer+ErrorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8824DAFB60490BBB934A91CC6925CFF /* IQPlayer+ErrorLog.swift */; };
+		64D0B7156882DCC422417B485C5B38FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
+		672976C96D1AEFF996D8F812E354901E /* IQPlaybackOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599C5E9E1D572C15DDFBE2E4C52E7FF /* IQPlaybackOutputDelegate.swift */; };
+		6B912DFF1E335A1775218A25D2D1DA87 /* IQAssetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70781B25995E8ED48FD9D046FBA95ADF /* IQAssetLoader.swift */; };
+		6D1736C03BFF32257547EFC526E74CD8 /* IQPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8A181BEBCE1DEBBF7068D994E1EB0 /* IQPlayerItem.swift */; };
+		6D2997B1EE96DBC84ED3873EB39E1DC2 /* IQPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E963BE26706F86076EA96465073C00 /* IQPlayer.swift */; };
+		6D46244FC0DFE2019A1306CDAAF3CC2C /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B186A3CCE1EE440C8E6A5406A11E6 /* URLBufferedReader.swift */; };
+		6D7299D3BF7008202D6DABC73EFED2E6 /* IQNativePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067F84737724A8BC4E37ADF84254CCE8 /* IQNativePlayer.swift */; };
+		6EA2AA28B3815F3A0461775E851675D1 /* IQPlayer+ErrorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8824DAFB60490BBB934A91CC6925CFF /* IQPlayer+ErrorLog.swift */; };
+		78833BB8D763AD8ECDCCA4D590ACC735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		7AE26231517E65E34680A6C0421B83A9 /* IQNativePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067F84737724A8BC4E37ADF84254CCE8 /* IQNativePlayer.swift */; };
+		7C0FDDF121BD3F44558FC06D51224C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		7C2DAA25BA7A45CD88EC101E99BA9316 /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B186A3CCE1EE440C8E6A5406A11E6 /* URLBufferedReader.swift */; };
+		7CFBC5F15642886492242757FD508EEC /* IQPlayableAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4565353DF406BED866CB675220672D8 /* IQPlayableAction.swift */; };
+		80BD8AFBD8FC9981D7939653B5AD5AE1 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D7D6E45E3FA4BF55BE352624A47AB /* Metadata.swift */; };
+		844DFFD753CA3B1A112AABCDF90E4D4D /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C25F44A843351AE013F79C975D0671 /* StreamReader.swift */; };
+		990D1FED58F2D18EFF756CA70FB1A292 /* Pods-IQNativeVideoPlayerClient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CAC28CAF859C4D084733B4B96B10B6 /* Pods-IQNativeVideoPlayerClient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CFD632E6B66704F6AC6B885E0640D4 /* IQVideoPlayer-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3DDC8BB430835F96A5501DC5431D38 /* IQVideoPlayer-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E3895DE5B7AA5122F8FF04232BEF666 /* IQPlayer+AccessLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4409C4F545B902B9F0865601F721C /* IQPlayer+AccessLog.swift */; };
+		9EA1E434505A0D7BD4AC6A96F255087E /* IQPlayerItem+Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4087B371F1CF60B0900B57C14F7AA8F4 /* IQPlayerItem+Subtitles.swift */; };
+		A5452CB99BB67D3A52B235E35DAFCCA0 /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F211725E23C9E47E3955162356F712 /* FileBufferedReader.swift */; };
+		A59BE69F12AED475FBFBEECF172B577C /* IQPlayerVideoGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241B9BD760D42002F973B71EF453837 /* IQPlayerVideoGravity.swift */; };
+		A5C35AF5C1036478853878D560D40934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
+		AB3284C05EDD89EC6A8E4F077E29D0F7 /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE3AE208897BC04991BA81A34A2E57 /* StringBufferedReader.swift */; };
+		AC322593D168986F5027DBD55D389769 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D7D6E45E3FA4BF55BE352624A47AB /* Metadata.swift */; };
+		B0091181076C0D1C91F9B75F765E0027 /* IQNativeVideoPlayerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475823B02CE0ECC16F6FC130704A082 /* IQNativeVideoPlayerOutput.swift */; };
+		B20DE6E6D4338DF9729AC8924EF683F5 /* Pods-TVOS-SampleApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343F23E9598C1003C932EF95EAB07091 /* Pods-TVOS-SampleApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38553F29BF9D771F333C415E91F3061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
+		B3DD178B5F7FF9243075D0852065830A /* IQPlayerItem+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F3ECD25F3D4607DE1722C6A40EE50 /* IQPlayerItem+Live.swift */; };
+		BB92F61F04943B9F1C4CB2FBFEEEEC6E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C186E094297AE0E9042562C3FE68B /* StringExtensions.swift */; };
+		BF99D2420790E5F357EC518E980005A4 /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F0DDD4A10CF43B1E59D42AA2C26F1 /* MediaSegment.swift */; };
+		C27EA13E7E097548FF7CCBA5E6184CE4 /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74093D28DFA067D04DA67551ECFBDB38 /* ReaderBuilder.swift */; };
+		C51BE18F91AE945CE2AFDBCC4A46D7D7 /* IQPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8A181BEBCE1DEBBF7068D994E1EB0 /* IQPlayerItem.swift */; };
+		D2958B67E26CB62E4D40234AD49FA6DF /* IQPlayerItem+Bitrates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149909AE57A60760204BEA03794E6CD0 /* IQPlayerItem+Bitrates.swift */; };
+		D308715972657CC9C8D0E1493CD27362 /* IQNativeVideoPlayerClient-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EFD8FD6120F9AE36F8D0566EEF02B4 /* IQNativeVideoPlayerClient-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57932BEF942714989D58298D14497DB /* IQPlayerViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DD3975660598188310EB05E5E9BF56 /* IQPlayerViewProtocol.swift */; };
+		D67E0531E3A423274EA0C780BBE51351 /* IQPlayer+Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB14E7BB00A1DB657C018C6AF90AEA /* IQPlayer+Status.swift */; };
+		DC4E89FC8201723553A89EA9754994F2 /* IQPlayerVideoGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241B9BD760D42002F973B71EF453837 /* IQPlayerVideoGravity.swift */; };
+		DF950C1B67B58FFBAE889FE2E361035E /* IQPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E963BE26706F86076EA96465073C00 /* IQPlayer.swift */; };
+		DF9E4F8A601D9A2D57DAE316BDA29194 /* IQPlayerItemOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34D74B3E4B566C201428147C3BA9FC3 /* IQPlayerItemOptions.swift */; };
+		DFA72F5635D9B55B73B2A487D90E2F9D /* IQNativePlayer+PlaybackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC65BCB1A588639541078BF2376A92C /* IQNativePlayer+PlaybackDelegate.swift */; };
+		E0BDA1D2F692F3E9C4C2BF136DD84BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		E4946F33689073F483920FA4EF498507 /* IQVideoPlayer-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA0F1CA83A6442857DC7E198E68D7BE /* IQVideoPlayer-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F198A1791930948A07B5BF0D23304895 /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE12810D175102A0A1B27CF6E712AD /* MediaPlaylist.swift */; };
+		F504132F2BE0929311426D8D1D916B7A /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A1A053076C45D2F2F0DFD916FF1825 /* NSURLExtension.swift */; };
+		F83397C1336F97B8ACD3FAD023841833 /* IQPlaybackOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2599C5E9E1D572C15DDFBE2E4C52E7FF /* IQPlaybackOutputDelegate.swift */; };
+		FA51768B9EE8543BA902B4413891BE13 /* IQPlayerItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F43507FC1F0C5A2689E0D2D094AE31 /* IQPlayerItemDelegate.swift */; };
+		FB905A7B4468B0D3FE7CAD87851703E3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72750955D732077334C1B378DB436A /* Utility.swift */; };
+		FE98720C2F67D79DC5CBC0AD5EFF907F /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69658B438D77B6F575D1414DDEB487E7 /* BufferedReader.swift */; };
+		FFE71F27AEB6BCE31BD88409A3AA4A5F /* IQNativeVideoPlayerClient-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72141A6AEC1B9DE9DCF09C219685CED8 /* IQNativeVideoPlayerClient-tvOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460E437B83230B726218360CDF254171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4715E48B59737C74FCF22127CAB45EE0;
+			remoteInfo = "IQVideoPlayer-tvOS";
+		};
+		4B2E8F422AA9679EEEA287D74A74BA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E4278B35B8A3F04D252752CB4E45081;
+			remoteInfo = "IQVideoPlayer-iOS";
+		};
+		7D8CEE8CF1D9DB36CA11C368FDD6AECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4715E48B59737C74FCF22127CAB45EE0;
+			remoteInfo = "IQVideoPlayer-tvOS";
+		};
+		B575326E07C5A6BC039D546C8A421418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E4278B35B8A3F04D252752CB4E45081;
+			remoteInfo = "IQVideoPlayer-iOS";
+		};
+		DE93F92F870DB449BB12329C08231AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B686A64289D16352B0611A49AD4C07;
+			remoteInfo = "IQNativeVideoPlayerClient-iOS";
+		};
+		F16820DA196DA8987E4953C776B88628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D496C715CCCA5F2295EE716B551EAE;
+			remoteInfo = "IQNativeVideoPlayerClient-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F66AA4E7EEAC16405614ADFAF8261F /* IQNativeVideoPlayerClient-tvOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "IQNativeVideoPlayerClient-tvOS"; path = IQNativeVideoPlayerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		067F84737724A8BC4E37ADF84254CCE8 /* IQNativePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQNativePlayer.swift; path = IQNativeVideoPlayerClient/Classes/IQNativePlayer.swift; sourceTree = "<group>"; };
+		0B45F86A8FF0A8FC0F6739D52431F0D9 /* IQVideoPlayer-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "IQVideoPlayer-iOS"; path = IQVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2F0DDD4A10CF43B1E59D42AA2C26F1 /* MediaSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaSegment.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/MediaSegment.swift; sourceTree = "<group>"; };
+		0E8D7D6E45E3FA4BF55BE352624A47AB /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = IQNativeVideoPlayerClient/Classes/Metadata.swift; sourceTree = "<group>"; };
+		0F75668C2D1DBED9902A1047AEE81F5C /* Pods-TVOS-SampleApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVOS-SampleApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10310F659DCB53EB6CC3B9F4B00B0311 /* IQPlayerSeek.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerSeek.swift; path = IQVideoPlayer/Classes/IQPlayerItemOptions/IQPlayerSeek.swift; sourceTree = "<group>"; };
+		10F1537D0F2581818A6C09E2472AB897 /* IQVideoPlayer-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQVideoPlayer-iOS-Info.plist"; sourceTree = "<group>"; };
+		149909AE57A60760204BEA03794E6CD0 /* IQPlayerItem+Bitrates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQPlayerItem+Bitrates.swift"; path = "IQVideoPlayer/Classes/IQPlayerItem/IQPlayerItem+Bitrates.swift"; sourceTree = "<group>"; };
+		16CCFB74E7A2131826F9416430955EDF /* IQNativeVideoPlayerClient-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "IQNativeVideoPlayerClient-tvOS.release.xcconfig"; path = "../IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1ADE12810D175102A0A1B27CF6E712AD /* MediaPlaylist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaPlaylist.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/MediaPlaylist.swift; sourceTree = "<group>"; };
+		1AF43ACC429588CB3EF2E6693517F0C0 /* IQPlayerItem+MultiAudio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQPlayerItem+MultiAudio.swift"; path = "IQVideoPlayer/Classes/IQPlayerItem/IQPlayerItem+MultiAudio.swift"; sourceTree = "<group>"; };
+		1DA333FBD5613FF319A1C67AC0290780 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		233BE58DB637264A3BFB3FDAF0BCAC31 /* IQNativeVideoPlayerClient-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNativeVideoPlayerClient-tvOS-umbrella.h"; path = "../IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		2463E1668D03EBA62ACD20467554FB0A /* IQNativeVideoPlayerClient-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IQNativeVideoPlayerClient-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2599C5E9E1D572C15DDFBE2E4C52E7FF /* IQPlaybackOutputDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlaybackOutputDelegate.swift; path = IQVideoPlayer/Classes/IQPlayerOutput/IQPlaybackOutputDelegate.swift; sourceTree = "<group>"; };
+		25CACCBB4F405A59CE9FF81F999CC269 /* IQVideoPlayer-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "IQVideoPlayer-tvOS-Info.plist"; path = "../IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-Info.plist"; sourceTree = "<group>"; };
+		26CAC28CAF859C4D084733B4B96B10B6 /* Pods-IQNativeVideoPlayerClient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IQNativeVideoPlayerClient_Example-umbrella.h"; sourceTree = "<group>"; };
+		26F8A181BEBCE1DEBBF7068D994E1EB0 /* IQPlayerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerItem.swift; path = IQVideoPlayer/Classes/IQPlayerItem/IQPlayerItem.swift; sourceTree = "<group>"; };
+		2A7BF2D59332BD87DD5CA7B1635151A0 /* Pods-IQNativeVideoPlayerClient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IQNativeVideoPlayerClient_Example.modulemap"; sourceTree = "<group>"; };
+		2CC4409C4F545B902B9F0865601F721C /* IQPlayer+AccessLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQPlayer+AccessLog.swift"; path = "IQVideoPlayer/Classes/IQPlayer/IQPlayer+AccessLog.swift"; sourceTree = "<group>"; };
+		343F23E9598C1003C932EF95EAB07091 /* Pods-TVOS-SampleApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVOS-SampleApplication-umbrella.h"; sourceTree = "<group>"; };
+		34FF88157057ECC86BCE5F92F7974A94 /* IQPlayerPerformance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerPerformance.swift; path = IQVideoPlayer/Classes/IQPlayerOutput/IQPlayerPerformance.swift; sourceTree = "<group>"; };
+		3DE9220A48E7E6C49D581CDA1FA14ACA /* IQNativeVideoPlayerClient-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQNativeVideoPlayerClient-iOS-Info.plist"; sourceTree = "<group>"; };
+		400C3FC2638927045C089539581D39EF /* IQNativeVideoPlayerClient-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "IQNativeVideoPlayerClient-tvOS.modulemap"; path = "../IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS.modulemap"; sourceTree = "<group>"; };
+		401FC7438913E64A6BF501D16E51656C /* IQVideoPlayer-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "IQVideoPlayer-iOS.modulemap"; sourceTree = "<group>"; };
+		4087B371F1CF60B0900B57C14F7AA8F4 /* IQPlayerItem+Subtitles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQPlayerItem+Subtitles.swift"; path = "IQVideoPlayer/Classes/IQPlayerItem/IQPlayerItem+Subtitles.swift"; sourceTree = "<group>"; };
+		410D7570DD18DB54CBE56758DF337B46 /* IQVideoPlayer-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQVideoPlayer-iOS-dummy.m"; sourceTree = "<group>"; };
+		435B8A5AEF9F8D000139713E530D1E41 /* IQVideoPlayer-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "IQVideoPlayer-tvOS.modulemap"; path = "../IQVideoPlayer-tvOS/IQVideoPlayer-tvOS.modulemap"; sourceTree = "<group>"; };
+		45786F928229E1D3E361391091C86D10 /* IQNativeVideoPlayerClient-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "IQNativeVideoPlayerClient-iOS.modulemap"; sourceTree = "<group>"; };
+		464C0F1F5A9EFDE5BB6962E8E027CE41 /* Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		47C60DC329631441D8E8BBE1CD388D18 /* IQVideoPlayer-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQVideoPlayer-tvOS-prefix.pch"; path = "../IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		4808D6905FB70373E7E5060D86E2F8FF /* IQNativeVideoPlayerClient-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "IQNativeVideoPlayerClient-iOS"; path = IQNativeVideoPlayerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483E3972EEB87C2499C8AFC2A992267C /* IQPlayerLifeCycleEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerLifeCycleEvent.swift; path = IQVideoPlayer/Classes/IQPlayerOutput/IQPlayerLifeCycleEvent.swift; sourceTree = "<group>"; };
+		48CCFDAA6B7B4E951501016DC3F5FB50 /* Pods-TVOS-SampleApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVOS-SampleApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3DDC8BB430835F96A5501DC5431D38 /* IQVideoPlayer-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQVideoPlayer-iOS-umbrella.h"; sourceTree = "<group>"; };
+		4E5C186E094297AE0E9042562C3FE68B /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/StringExtensions.swift; sourceTree = "<group>"; };
+		509CDE647B8CBB6D244FA513DA081F03 /* Pods-IQNativeVideoPlayerClient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IQNativeVideoPlayerClient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53CFF9BD94EB7285F8BC52DCEF12FC9A /* IQVideoPlayer-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IQVideoPlayer-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		544EBD8AFA9E841EC7282EC8528B2D92 /* Pods-IQNativeVideoPlayerClient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IQNativeVideoPlayerClient_Example-dummy.m"; sourceTree = "<group>"; };
+		54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57B8C5D6BC4B5E5EE3F1F07EBFBDABAB /* IQVideoPlayer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "IQVideoPlayer-tvOS.release.xcconfig"; path = "../IQVideoPlayer-tvOS/IQVideoPlayer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		590524D2440CB9883EF97EE381C459F4 /* Pods-TVOS-SampleApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVOS-SampleApplication-dummy.m"; sourceTree = "<group>"; };
+		5BFE71A333E4DE24174209085241CCC1 /* IQVideoPlayer-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQVideoPlayer-iOS-prefix.pch"; sourceTree = "<group>"; };
+		5E67C56A29E266FC0AF38B313DC75A60 /* Pods-TVOS-SampleApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVOS-SampleApplication.release.xcconfig"; sourceTree = "<group>"; };
+		6682381ADD43B679F71AA8825D614655 /* IQVideoPlayer-tvOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "IQVideoPlayer-tvOS"; path = IQVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680F3ECD25F3D4607DE1722C6A40EE50 /* IQPlayerItem+Live.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQPlayerItem+Live.swift"; path = "IQVideoPlayer/Classes/IQPlayerItem/IQPlayerItem+Live.swift"; sourceTree = "<group>"; };
+		691423D074FF700A8AB1EE25F00A9CD4 /* IQPlaybackOutputManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlaybackOutputManager.swift; path = IQVideoPlayer/Classes/IQPlayerOutput/IQPlaybackOutputManager.swift; sourceTree = "<group>"; };
+		69658B438D77B6F575D1414DDEB487E7 /* BufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BufferedReader.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/BufferedReader.swift; sourceTree = "<group>"; };
+		6DC65BCB1A588639541078BF2376A92C /* IQNativePlayer+PlaybackDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNativePlayer+PlaybackDelegate.swift"; path = "IQNativeVideoPlayerClient/Classes/IQNativePlayer+PlaybackDelegate.swift"; sourceTree = "<group>"; };
+		6E86060823DA346FBDCE41260BA2E288 /* Pods-TVOS-SampleApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVOS-SampleApplication-acknowledgements.plist"; sourceTree = "<group>"; };
+		70781B25995E8ED48FD9D046FBA95ADF /* IQAssetLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQAssetLoader.swift; path = IQVideoPlayer/Classes/IQAssetLoader/IQAssetLoader.swift; sourceTree = "<group>"; };
+		72141A6AEC1B9DE9DCF09C219685CED8 /* IQNativeVideoPlayerClient-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNativeVideoPlayerClient-tvOS-dummy.m"; path = "../IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-dummy.m"; sourceTree = "<group>"; };
+		74093D28DFA067D04DA67551ECFBDB38 /* ReaderBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderBuilder.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/ReaderBuilder.swift; sourceTree = "<group>"; };
+		77CCCC0867FD3B465AE0F79E94786021 /* IQNativeVideoPlayerClient-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQNativeVideoPlayerClient-iOS-dummy.m"; sourceTree = "<group>"; };
+		7B3C1021340355EAA64C370609FBBA61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		82EFD8FD6120F9AE36F8D0566EEF02B4 /* IQNativeVideoPlayerClient-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQNativeVideoPlayerClient-iOS-umbrella.h"; sourceTree = "<group>"; };
+		8431D79A52D06C24DD687DA96D00171D /* Pods-TVOS-SampleApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVOS-SampleApplication.modulemap"; sourceTree = "<group>"; };
+		85F43507FC1F0C5A2689E0D2D094AE31 /* IQPlayerItemDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerItemDelegate.swift; path = IQVideoPlayer/Classes/IQPlayerOutput/IQPlayerItemDelegate.swift; sourceTree = "<group>"; };
+		862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		869102C9F4E8BD9232C9BD4B38606646 /* Pods-IQNativeVideoPlayerClient_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IQNativeVideoPlayerClient_Example-Info.plist"; sourceTree = "<group>"; };
+		86A1A053076C45D2F2F0DFD916FF1825 /* NSURLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLExtension.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/NSURLExtension.swift; sourceTree = "<group>"; };
+		88BAA352D7703A820FF860FA0EAD2EF6 /* Pods-TVOS-SampleApplication */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVOS-SampleApplication"; path = Pods_TVOS_SampleApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C25F44A843351AE013F79C975D0671 /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/StreamReader.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8B186A3CCE1EE440C8E6A5406A11E6 /* URLBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLBufferedReader.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/URLBufferedReader.swift; sourceTree = "<group>"; };
+		A34D74B3E4B566C201428147C3BA9FC3 /* IQPlayerItemOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerItemOptions.swift; path = IQVideoPlayer/Classes/IQPlayerItemOptions/IQPlayerItemOptions.swift; sourceTree = "<group>"; };
+		A3FB14E7BB00A1DB657C018C6AF90AEA /* IQPlayer+Status.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQPlayer+Status.swift"; path = "IQVideoPlayer/Classes/IQPlayer/IQPlayer+Status.swift"; sourceTree = "<group>"; };
+		AC0C1708A43A8B09570CF6D71D3C3691 /* IQVideoPlayer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "IQVideoPlayer-tvOS.debug.xcconfig"; path = "../IQVideoPlayer-tvOS/IQVideoPlayer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AD54F1ABC89721F66D0EC153E2CD9B96 /* IQPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerView.swift; path = IQVideoPlayer/Classes/IQPlayerView/IQPlayerView.swift; sourceTree = "<group>"; };
+		AE6FB509F8F50CF3909F1D9B808702A8 /* Pods-IQNativeVideoPlayerClient_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IQNativeVideoPlayerClient_Example"; path = Pods_IQNativeVideoPlayerClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B241B9BD760D42002F973B71EF453837 /* IQPlayerVideoGravity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerVideoGravity.swift; path = IQVideoPlayer/Classes/IQPlayerItemOptions/IQPlayerVideoGravity.swift; sourceTree = "<group>"; };
+		B5F7DECCFD5C8D556B6D760B8BEB0CB6 /* IQNativeVideoPlayerClient-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "IQNativeVideoPlayerClient-tvOS.debug.xcconfig"; path = "../IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B3388897071AC11BF7FF077878B059 /* IQNativeVideoPlayerClient-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQNativeVideoPlayerClient-iOS-prefix.pch"; sourceTree = "<group>"; };
+		B7526C4B80FB5931BE1D590F902852DE /* Pods-IQNativeVideoPlayerClient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IQNativeVideoPlayerClient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7A81DB5C601B7AB796AACC77C8487F1 /* Pods-IQNativeVideoPlayerClient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IQNativeVideoPlayerClient_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B84251D4469105097167340BF4B05E40 /* Pods-TVOS-SampleApplication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVOS-SampleApplication-Info.plist"; sourceTree = "<group>"; };
+		B9206474CA7252C10B18B7BEAC1BEB59 /* Pods-TVOS-SampleApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVOS-SampleApplication-frameworks.sh"; sourceTree = "<group>"; };
+		BAA0F1CA83A6442857DC7E198E68D7BE /* IQVideoPlayer-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQVideoPlayer-tvOS-umbrella.h"; path = "../IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		C4CFD025287562FE3CED01DD06B85A2A /* Pods-IQNativeVideoPlayerClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IQNativeVideoPlayerClient_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C7E963BE26706F86076EA96465073C00 /* IQPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayer.swift; path = IQVideoPlayer/Classes/IQPlayer/IQPlayer.swift; sourceTree = "<group>"; };
+		C9D421F8DE8C5D117437FBDBD81F90D6 /* IQNativeVideoPlayerClient-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IQNativeVideoPlayerClient-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		CD68BC7D5C078D3663AAE63A3AED249F /* IQVideoPlayer-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQVideoPlayer-tvOS-dummy.m"; path = "../IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-dummy.m"; sourceTree = "<group>"; };
+		D663497763F8CB5565C82F5AE5B11411 /* ManifestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManifestBuilder.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/ManifestBuilder.swift; sourceTree = "<group>"; };
+		D9E9F26041BC138AF6B0EC754CC7E35F /* IQVideoPlayer-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IQVideoPlayer-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DE72750955D732077334C1B378DB436A /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = IQVideoPlayer/Classes/Helper/Utility.swift; sourceTree = "<group>"; };
+		E0DD3975660598188310EB05E5E9BF56 /* IQPlayerViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayerViewProtocol.swift; path = IQVideoPlayer/Classes/IQPlayableAction/IQPlayerViewProtocol.swift; sourceTree = "<group>"; };
+		E13B105EE26FCEA2064064A67F3BCD8A /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorView.swift; path = IQVideoPlayer/Classes/Helper/ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		E475823B02CE0ECC16F6FC130704A082 /* IQNativeVideoPlayerOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQNativeVideoPlayerOutput.swift; path = IQNativeVideoPlayerClient/Classes/IQNativeVideoPlayerOutput.swift; sourceTree = "<group>"; };
+		E4F211725E23C9E47E3955162356F712 /* FileBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileBufferedReader.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/FileBufferedReader.swift; sourceTree = "<group>"; };
+		EE27989F46CF58FD33D64A2A913CE6A3 /* IQNativeVideoPlayerClient-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNativeVideoPlayerClient-tvOS-prefix.pch"; path = "../IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		F0DE3AE208897BC04991BA81A34A2E57 /* StringBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBufferedReader.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/StringBufferedReader.swift; sourceTree = "<group>"; };
+		F4565353DF406BED866CB675220672D8 /* IQPlayableAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPlayableAction.swift; path = IQVideoPlayer/Classes/IQPlayableAction/IQPlayableAction.swift; sourceTree = "<group>"; };
+		F5C7D43AAB7261F80B2CFCCE20503991 /* MasterPlaylist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterPlaylist.swift; path = IQVideoPlayer/Classes/Helper/ManifestReader/MasterPlaylist.swift; sourceTree = "<group>"; };
+		F717A71D483EFBA437E5C4113A529917 /* IQNativeVideoPlayerClient-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "IQNativeVideoPlayerClient-tvOS-Info.plist"; path = "../IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-Info.plist"; sourceTree = "<group>"; };
+		F8824DAFB60490BBB934A91CC6925CFF /* IQPlayer+ErrorLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQPlayer+ErrorLog.swift"; path = "IQVideoPlayer/Classes/IQPlayer/IQPlayer+ErrorLog.swift"; sourceTree = "<group>"; };
+		FF6BEC74FABA1470FBE6ED13F355DFE4 /* IQNativeVideoPlayerClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IQNativeVideoPlayerClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0697CFC59A6AFFE18D89817DCFC8984E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BDA1D2F692F3E9C4C2BF136DD84BF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE2565EEB182EC9C553FC724C62A886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78833BB8D763AD8ECDCCA4D590ACC735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CC14A154A549E91357A49F0819DB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38553F29BF9D771F333C415E91F3061 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0E3ED95E83497E9CA867AD2253D71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D0B7156882DCC422417B485C5B38FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC718E85F1394A364613782B2EED3A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0FDDF121BD3F44558FC06D51224C6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCED6D88DE11043172E5F87AB6693DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C35AF5C1036478853878D560D40934 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C464D34911ECE3613D4E0340DB3F3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C440B716434CC9EE9B36FE610124415C /* Pods-IQNativeVideoPlayerClient_Example */,
+				F15BA546899AB1333C10C2659C5D5E14 /* Pods-TVOS-SampleApplication */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51A224B48334E845A6F280947ADC9C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4808D6905FB70373E7E5060D86E2F8FF /* IQNativeVideoPlayerClient-iOS */,
+				03F66AA4E7EEAC16405614ADFAF8261F /* IQNativeVideoPlayerClient-tvOS */,
+				0B45F86A8FF0A8FC0F6739D52431F0D9 /* IQVideoPlayer-iOS */,
+				6682381ADD43B679F71AA8825D614655 /* IQVideoPlayer-tvOS */,
+				AE6FB509F8F50CF3909F1D9B808702A8 /* Pods-IQNativeVideoPlayerClient_Example */,
+				88BAA352D7703A820FF860FA0EAD2EF6 /* Pods-TVOS-SampleApplication */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E189454C3A489EC3A8DD74ED6AD769 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF6BEC74FABA1470FBE6ED13F355DFE4 /* IQNativeVideoPlayerClient.podspec */,
+				1DA333FBD5613FF319A1C67AC0290780 /* LICENSE */,
+				7B3C1021340355EAA64C370609FBBA61 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5D2603679A279E2488823F4CFB4B14B6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6135A9EA2E2A54EFDF80284739AE4A37 /* IQNativeVideoPlayerClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6135A9EA2E2A54EFDF80284739AE4A37 /* IQNativeVideoPlayerClient */ = {
+			isa = PBXGroup;
+			children = (
+				067F84737724A8BC4E37ADF84254CCE8 /* IQNativePlayer.swift */,
+				6DC65BCB1A588639541078BF2376A92C /* IQNativePlayer+PlaybackDelegate.swift */,
+				E475823B02CE0ECC16F6FC130704A082 /* IQNativeVideoPlayerOutput.swift */,
+				0E8D7D6E45E3FA4BF55BE352624A47AB /* Metadata.swift */,
+				53E189454C3A489EC3A8DD74ED6AD769 /* Pod */,
+				73C1880EBFA7C5487E06F52C64D3FE9E /* Support Files */,
+			);
+			name = IQNativeVideoPlayerClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		73C1880EBFA7C5487E06F52C64D3FE9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45786F928229E1D3E361391091C86D10 /* IQNativeVideoPlayerClient-iOS.modulemap */,
+				77CCCC0867FD3B465AE0F79E94786021 /* IQNativeVideoPlayerClient-iOS-dummy.m */,
+				3DE9220A48E7E6C49D581CDA1FA14ACA /* IQNativeVideoPlayerClient-iOS-Info.plist */,
+				B6B3388897071AC11BF7FF077878B059 /* IQNativeVideoPlayerClient-iOS-prefix.pch */,
+				82EFD8FD6120F9AE36F8D0566EEF02B4 /* IQNativeVideoPlayerClient-iOS-umbrella.h */,
+				2463E1668D03EBA62ACD20467554FB0A /* IQNativeVideoPlayerClient-iOS.debug.xcconfig */,
+				C9D421F8DE8C5D117437FBDBD81F90D6 /* IQNativeVideoPlayerClient-iOS.release.xcconfig */,
+				400C3FC2638927045C089539581D39EF /* IQNativeVideoPlayerClient-tvOS.modulemap */,
+				72141A6AEC1B9DE9DCF09C219685CED8 /* IQNativeVideoPlayerClient-tvOS-dummy.m */,
+				F717A71D483EFBA437E5C4113A529917 /* IQNativeVideoPlayerClient-tvOS-Info.plist */,
+				EE27989F46CF58FD33D64A2A913CE6A3 /* IQNativeVideoPlayerClient-tvOS-prefix.pch */,
+				233BE58DB637264A3BFB3FDAF0BCAC31 /* IQNativeVideoPlayerClient-tvOS-umbrella.h */,
+				B5F7DECCFD5C8D556B6D760B8BEB0CB6 /* IQNativeVideoPlayerClient-tvOS.debug.xcconfig */,
+				16CCFB74E7A2131826F9416430955EDF /* IQNativeVideoPlayerClient-tvOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IQNativeVideoPlayerClient-iOS";
+			sourceTree = "<group>";
+		};
+		7BA426A61ECDB18091804837513E216F /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A19B97BA9DB17ACAB60CC4FA3D6A30 /* iOS */,
+				7BA426A61ECDB18091804837513E216F /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98E3CE4D1BECED5F737CA0F08E3B5E4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6AB8D7D3A9164335AA25AAB0EF6D2 /* IQVideoPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEB6AB8D7D3A9164335AA25AAB0EF6D2 /* IQVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E13B105EE26FCEA2064064A67F3BCD8A /* ActivityIndicatorView.swift */,
+				69658B438D77B6F575D1414DDEB487E7 /* BufferedReader.swift */,
+				E4F211725E23C9E47E3955162356F712 /* FileBufferedReader.swift */,
+				70781B25995E8ED48FD9D046FBA95ADF /* IQAssetLoader.swift */,
+				F4565353DF406BED866CB675220672D8 /* IQPlayableAction.swift */,
+				2599C5E9E1D572C15DDFBE2E4C52E7FF /* IQPlaybackOutputDelegate.swift */,
+				691423D074FF700A8AB1EE25F00A9CD4 /* IQPlaybackOutputManager.swift */,
+				C7E963BE26706F86076EA96465073C00 /* IQPlayer.swift */,
+				2CC4409C4F545B902B9F0865601F721C /* IQPlayer+AccessLog.swift */,
+				F8824DAFB60490BBB934A91CC6925CFF /* IQPlayer+ErrorLog.swift */,
+				A3FB14E7BB00A1DB657C018C6AF90AEA /* IQPlayer+Status.swift */,
+				26F8A181BEBCE1DEBBF7068D994E1EB0 /* IQPlayerItem.swift */,
+				149909AE57A60760204BEA03794E6CD0 /* IQPlayerItem+Bitrates.swift */,
+				680F3ECD25F3D4607DE1722C6A40EE50 /* IQPlayerItem+Live.swift */,
+				1AF43ACC429588CB3EF2E6693517F0C0 /* IQPlayerItem+MultiAudio.swift */,
+				4087B371F1CF60B0900B57C14F7AA8F4 /* IQPlayerItem+Subtitles.swift */,
+				85F43507FC1F0C5A2689E0D2D094AE31 /* IQPlayerItemDelegate.swift */,
+				A34D74B3E4B566C201428147C3BA9FC3 /* IQPlayerItemOptions.swift */,
+				483E3972EEB87C2499C8AFC2A992267C /* IQPlayerLifeCycleEvent.swift */,
+				34FF88157057ECC86BCE5F92F7974A94 /* IQPlayerPerformance.swift */,
+				10310F659DCB53EB6CC3B9F4B00B0311 /* IQPlayerSeek.swift */,
+				B241B9BD760D42002F973B71EF453837 /* IQPlayerVideoGravity.swift */,
+				AD54F1ABC89721F66D0EC153E2CD9B96 /* IQPlayerView.swift */,
+				E0DD3975660598188310EB05E5E9BF56 /* IQPlayerViewProtocol.swift */,
+				D663497763F8CB5565C82F5AE5B11411 /* ManifestBuilder.swift */,
+				F5C7D43AAB7261F80B2CFCCE20503991 /* MasterPlaylist.swift */,
+				1ADE12810D175102A0A1B27CF6E712AD /* MediaPlaylist.swift */,
+				0E2F0DDD4A10CF43B1E59D42AA2C26F1 /* MediaSegment.swift */,
+				86A1A053076C45D2F2F0DFD916FF1825 /* NSURLExtension.swift */,
+				74093D28DFA067D04DA67551ECFBDB38 /* ReaderBuilder.swift */,
+				88C25F44A843351AE013F79C975D0671 /* StreamReader.swift */,
+				F0DE3AE208897BC04991BA81A34A2E57 /* StringBufferedReader.swift */,
+				4E5C186E094297AE0E9042562C3FE68B /* StringExtensions.swift */,
+				9F8B186A3CCE1EE440C8E6A5406A11E6 /* URLBufferedReader.swift */,
+				DE72750955D732077334C1B378DB436A /* Utility.swift */,
+				BF6FD348B90F9ED18F3B2DA548A9FD41 /* Support Files */,
+			);
+			name = IQVideoPlayer;
+			path = IQVideoPlayer;
+			sourceTree = "<group>";
+		};
+		BF6FD348B90F9ED18F3B2DA548A9FD41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				401FC7438913E64A6BF501D16E51656C /* IQVideoPlayer-iOS.modulemap */,
+				410D7570DD18DB54CBE56758DF337B46 /* IQVideoPlayer-iOS-dummy.m */,
+				10F1537D0F2581818A6C09E2472AB897 /* IQVideoPlayer-iOS-Info.plist */,
+				5BFE71A333E4DE24174209085241CCC1 /* IQVideoPlayer-iOS-prefix.pch */,
+				4A3DDC8BB430835F96A5501DC5431D38 /* IQVideoPlayer-iOS-umbrella.h */,
+				53CFF9BD94EB7285F8BC52DCEF12FC9A /* IQVideoPlayer-iOS.debug.xcconfig */,
+				D9E9F26041BC138AF6B0EC754CC7E35F /* IQVideoPlayer-iOS.release.xcconfig */,
+				435B8A5AEF9F8D000139713E530D1E41 /* IQVideoPlayer-tvOS.modulemap */,
+				CD68BC7D5C078D3663AAE63A3AED249F /* IQVideoPlayer-tvOS-dummy.m */,
+				25CACCBB4F405A59CE9FF81F999CC269 /* IQVideoPlayer-tvOS-Info.plist */,
+				47C60DC329631441D8E8BBE1CD388D18 /* IQVideoPlayer-tvOS-prefix.pch */,
+				BAA0F1CA83A6442857DC7E198E68D7BE /* IQVideoPlayer-tvOS-umbrella.h */,
+				AC0C1708A43A8B09570CF6D71D3C3691 /* IQVideoPlayer-tvOS.debug.xcconfig */,
+				57B8C5D6BC4B5E5EE3F1F07EBFBDABAB /* IQVideoPlayer-tvOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQVideoPlayer-iOS";
+			sourceTree = "<group>";
+		};
+		C0A19B97BA9DB17ACAB60CC4FA3D6A30 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C440B716434CC9EE9B36FE610124415C /* Pods-IQNativeVideoPlayerClient_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2A7BF2D59332BD87DD5CA7B1635151A0 /* Pods-IQNativeVideoPlayerClient_Example.modulemap */,
+				B7526C4B80FB5931BE1D590F902852DE /* Pods-IQNativeVideoPlayerClient_Example-acknowledgements.markdown */,
+				509CDE647B8CBB6D244FA513DA081F03 /* Pods-IQNativeVideoPlayerClient_Example-acknowledgements.plist */,
+				544EBD8AFA9E841EC7282EC8528B2D92 /* Pods-IQNativeVideoPlayerClient_Example-dummy.m */,
+				B7A81DB5C601B7AB796AACC77C8487F1 /* Pods-IQNativeVideoPlayerClient_Example-frameworks.sh */,
+				869102C9F4E8BD9232C9BD4B38606646 /* Pods-IQNativeVideoPlayerClient_Example-Info.plist */,
+				26CAC28CAF859C4D084733B4B96B10B6 /* Pods-IQNativeVideoPlayerClient_Example-umbrella.h */,
+				464C0F1F5A9EFDE5BB6962E8E027CE41 /* Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig */,
+				C4CFD025287562FE3CED01DD06B85A2A /* Pods-IQNativeVideoPlayerClient_Example.release.xcconfig */,
+			);
+			name = "Pods-IQNativeVideoPlayerClient_Example";
+			path = "Target Support Files/Pods-IQNativeVideoPlayerClient_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5D2603679A279E2488823F4CFB4B14B6 /* Development Pods */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				98E3CE4D1BECED5F737CA0F08E3B5E4E /* Pods */,
+				51A224B48334E845A6F280947ADC9C4C /* Products */,
+				48C464D34911ECE3613D4E0340DB3F3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F15BA546899AB1333C10C2659C5D5E14 /* Pods-TVOS-SampleApplication */ = {
+			isa = PBXGroup;
+			children = (
+				8431D79A52D06C24DD687DA96D00171D /* Pods-TVOS-SampleApplication.modulemap */,
+				0F75668C2D1DBED9902A1047AEE81F5C /* Pods-TVOS-SampleApplication-acknowledgements.markdown */,
+				6E86060823DA346FBDCE41260BA2E288 /* Pods-TVOS-SampleApplication-acknowledgements.plist */,
+				590524D2440CB9883EF97EE381C459F4 /* Pods-TVOS-SampleApplication-dummy.m */,
+				B9206474CA7252C10B18B7BEAC1BEB59 /* Pods-TVOS-SampleApplication-frameworks.sh */,
+				B84251D4469105097167340BF4B05E40 /* Pods-TVOS-SampleApplication-Info.plist */,
+				343F23E9598C1003C932EF95EAB07091 /* Pods-TVOS-SampleApplication-umbrella.h */,
+				48CCFDAA6B7B4E951501016DC3F5FB50 /* Pods-TVOS-SampleApplication.debug.xcconfig */,
+				5E67C56A29E266FC0AF38B313DC75A60 /* Pods-TVOS-SampleApplication.release.xcconfig */,
+			);
+			name = "Pods-TVOS-SampleApplication";
+			path = "Target Support Files/Pods-TVOS-SampleApplication";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01029A65A36D03E8DE1BDB426D4B0A88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403059A52B02D6E05287041813D78872 /* IQNativeVideoPlayerClient-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F8DBEEE7154CE48EFCBE73F5C26552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DE6E6D4338DF9729AC8924EF683F5 /* Pods-TVOS-SampleApplication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC50E952D6995E88357C0B5E33C4AB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CFD632E6B66704F6AC6B885E0640D4 /* IQVideoPlayer-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5708E786D0DF6824F8AFF2F02B4B16D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D308715972657CC9C8D0E1493CD27362 /* IQNativeVideoPlayerClient-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C55F155F5AB580E69184E36C81A8CA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4946F33689073F483920FA4EF498507 /* IQVideoPlayer-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE70ADC4C6F4D207BDA3308FCDD55CC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990D1FED58F2D18EFF756CA70FB1A292 /* Pods-IQNativeVideoPlayerClient_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E4278B35B8A3F04D252752CB4E45081 /* IQVideoPlayer-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F723B5833660659D84ED1D3F38E271 /* Build configuration list for PBXNativeTarget "IQVideoPlayer-iOS" */;
+			buildPhases = (
+				4EC50E952D6995E88357C0B5E33C4AB7 /* Headers */,
+				273FF5BC00AD8BB889FA14950B0A9AD9 /* Sources */,
+				60CC14A154A549E91357A49F0819DB40 /* Frameworks */,
+				5D0C28DE7BDAA3366BED64BFBED5F97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQVideoPlayer-iOS";
+			productName = IQVideoPlayer;
+			productReference = 0B45F86A8FF0A8FC0F6739D52431F0D9 /* IQVideoPlayer-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		33FC47EACA13C763DA9896DEF486FDD9 /* Pods-TVOS-SampleApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9B8838875B8DAC1EBBA73F6B6699AE /* Build configuration list for PBXNativeTarget "Pods-TVOS-SampleApplication" */;
+			buildPhases = (
+				12F8DBEEE7154CE48EFCBE73F5C26552 /* Headers */,
+				E72CEABC88B332D31F6070C464AA7CC5 /* Sources */,
+				0697CFC59A6AFFE18D89817DCFC8984E /* Frameworks */,
+				86AC5D1DA8E0803A25845276D8EFC868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5E644359C1891A389D790F4A54ACEA /* PBXTargetDependency */,
+				84F8E481D8E70EAD542558E40312D611 /* PBXTargetDependency */,
+			);
+			name = "Pods-TVOS-SampleApplication";
+			productName = Pods_TVOS_SampleApplication;
+			productReference = 88BAA352D7703A820FF860FA0EAD2EF6 /* Pods-TVOS-SampleApplication */;
+			productType = "com.apple.product-type.framework";
+		};
+		4715E48B59737C74FCF22127CAB45EE0 /* IQVideoPlayer-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A10E534AE9171A8DCD6FCE7C23EA976 /* Build configuration list for PBXNativeTarget "IQVideoPlayer-tvOS" */;
+			buildPhases = (
+				8C55F155F5AB580E69184E36C81A8CA6 /* Headers */,
+				924BB93C4A7123037C0FFE3BF55B26F0 /* Sources */,
+				5EE2565EEB182EC9C553FC724C62A886 /* Frameworks */,
+				458D7CA376A5C44828755822A3848033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQVideoPlayer-tvOS";
+			productName = IQVideoPlayer;
+			productReference = 6682381ADD43B679F71AA8825D614655 /* IQVideoPlayer-tvOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D8ADDB87641567761E9BBE8923F8DC9 /* Pods-IQNativeVideoPlayerClient_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825770B086391A46F7571F3AE39C2DBA /* Build configuration list for PBXNativeTarget "Pods-IQNativeVideoPlayerClient_Example" */;
+			buildPhases = (
+				FE70ADC4C6F4D207BDA3308FCDD55CC7 /* Headers */,
+				72888C825FE9A06CA4BC018EA518F003 /* Sources */,
+				AA0E3ED95E83497E9CA867AD2253D71A /* Frameworks */,
+				9E9D19DE0969DBB4CB526119DBF96C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BBA29E0EC6757818113D987D09A0406 /* PBXTargetDependency */,
+				3101AA8EA6CDB5CF5E869C1ED2683145 /* PBXTargetDependency */,
+			);
+			name = "Pods-IQNativeVideoPlayerClient_Example";
+			productName = Pods_IQNativeVideoPlayerClient_Example;
+			productReference = AE6FB509F8F50CF3909F1D9B808702A8 /* Pods-IQNativeVideoPlayerClient_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7B686A64289D16352B0611A49AD4C07 /* IQNativeVideoPlayerClient-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF6A42A5656EAD237BA835AF14BF219 /* Build configuration list for PBXNativeTarget "IQNativeVideoPlayerClient-iOS" */;
+			buildPhases = (
+				5708E786D0DF6824F8AFF2F02B4B16D4 /* Headers */,
+				D09F5AB995E57476E38124D988831D27 /* Sources */,
+				FCED6D88DE11043172E5F87AB6693DFE /* Frameworks */,
+				70A08E0101B6F9705FDDB13F581495FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DFF85C19E56CA175291F7CEE72259EA /* PBXTargetDependency */,
+			);
+			name = "IQNativeVideoPlayerClient-iOS";
+			productName = IQNativeVideoPlayerClient;
+			productReference = 4808D6905FB70373E7E5060D86E2F8FF /* IQNativeVideoPlayerClient-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7D496C715CCCA5F2295EE716B551EAE /* IQNativeVideoPlayerClient-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E801A08474F8EA3EB49BE880C07AC7 /* Build configuration list for PBXNativeTarget "IQNativeVideoPlayerClient-tvOS" */;
+			buildPhases = (
+				01029A65A36D03E8DE1BDB426D4B0A88 /* Headers */,
+				F7FD7DCF86FE2CDAF3D4C328CABA9216 /* Sources */,
+				AC718E85F1394A364613782B2EED3A11 /* Frameworks */,
+				30281402934DA319A19F6377B9A5687E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340BB4FBE37D109A8D6678FEFE55C4A8 /* PBXTargetDependency */,
+			);
+			name = "IQNativeVideoPlayerClient-tvOS";
+			productName = IQNativeVideoPlayerClient;
+			productReference = 03F66AA4E7EEAC16405614ADFAF8261F /* IQNativeVideoPlayerClient-tvOS */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 51A224B48334E845A6F280947ADC9C4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7B686A64289D16352B0611A49AD4C07 /* IQNativeVideoPlayerClient-iOS */,
+				F7D496C715CCCA5F2295EE716B551EAE /* IQNativeVideoPlayerClient-tvOS */,
+				1E4278B35B8A3F04D252752CB4E45081 /* IQVideoPlayer-iOS */,
+				4715E48B59737C74FCF22127CAB45EE0 /* IQVideoPlayer-tvOS */,
+				9D8ADDB87641567761E9BBE8923F8DC9 /* Pods-IQNativeVideoPlayerClient_Example */,
+				33FC47EACA13C763DA9896DEF486FDD9 /* Pods-TVOS-SampleApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30281402934DA319A19F6377B9A5687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458D7CA376A5C44828755822A3848033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0C28DE7BDAA3366BED64BFBED5F97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70A08E0101B6F9705FDDB13F581495FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AC5D1DA8E0803A25845276D8EFC868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E9D19DE0969DBB4CB526119DBF96C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273FF5BC00AD8BB889FA14950B0A9AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ED76A126A9E5F17C35BB1D910750A5 /* ActivityIndicatorView.swift in Sources */,
+				2AD8FEF1474F043166BB1A079D427AAE /* BufferedReader.swift in Sources */,
+				181F8542B7E067E51D7A6E2CC2E9122B /* FileBufferedReader.swift in Sources */,
+				6B912DFF1E335A1775218A25D2D1DA87 /* IQAssetLoader.swift in Sources */,
+				7CFBC5F15642886492242757FD508EEC /* IQPlayableAction.swift in Sources */,
+				F83397C1336F97B8ACD3FAD023841833 /* IQPlaybackOutputDelegate.swift in Sources */,
+				51099E5ECBF1DA80A792FEDD8E7EDE86 /* IQPlaybackOutputManager.swift in Sources */,
+				DF950C1B67B58FFBAE889FE2E361035E /* IQPlayer.swift in Sources */,
+				3BB0AD4F32C04A4B28C85C2ECA552D00 /* IQPlayer+AccessLog.swift in Sources */,
+				6EA2AA28B3815F3A0461775E851675D1 /* IQPlayer+ErrorLog.swift in Sources */,
+				596B42430FDE545F08772552A9EDC5F9 /* IQPlayer+Status.swift in Sources */,
+				C51BE18F91AE945CE2AFDBCC4A46D7D7 /* IQPlayerItem.swift in Sources */,
+				D2958B67E26CB62E4D40234AD49FA6DF /* IQPlayerItem+Bitrates.swift in Sources */,
+				B3DD178B5F7FF9243075D0852065830A /* IQPlayerItem+Live.swift in Sources */,
+				1C8712768C5161A1E11A2812AA2E62A7 /* IQPlayerItem+MultiAudio.swift in Sources */,
+				1820FF62194F23999CCCA4A24332549B /* IQPlayerItem+Subtitles.swift in Sources */,
+				5F919D8F82A8786AB63079246AADA757 /* IQPlayerItemDelegate.swift in Sources */,
+				DF9E4F8A601D9A2D57DAE316BDA29194 /* IQPlayerItemOptions.swift in Sources */,
+				415D53E4F3A7ACC2632626AD73ACC84E /* IQPlayerLifeCycleEvent.swift in Sources */,
+				1911084AF4B9AD140C18D82A612923B3 /* IQPlayerPerformance.swift in Sources */,
+				4FC79086F0B48E122394C4BE2C6A453B /* IQPlayerSeek.swift in Sources */,
+				A59BE69F12AED475FBFBEECF172B577C /* IQPlayerVideoGravity.swift in Sources */,
+				191E7B62E766291DE3F3C886A2BBAE20 /* IQPlayerView.swift in Sources */,
+				56B7410F421C298F9773D49F3DE4A438 /* IQPlayerViewProtocol.swift in Sources */,
+				23FBBD73FC5E0EE192C946D897DCE0D2 /* IQVideoPlayer-iOS-dummy.m in Sources */,
+				2C10C3A91512E7C6C66F76946A0B5B73 /* ManifestBuilder.swift in Sources */,
+				0507B4CF97296FC6F45BF337CA961965 /* MasterPlaylist.swift in Sources */,
+				F198A1791930948A07B5BF0D23304895 /* MediaPlaylist.swift in Sources */,
+				0D3270C8D852EDAC4D581276CC0A47E1 /* MediaSegment.swift in Sources */,
+				F504132F2BE0929311426D8D1D916B7A /* NSURLExtension.swift in Sources */,
+				2151FEFA03C680696D11B5961D640508 /* ReaderBuilder.swift in Sources */,
+				844DFFD753CA3B1A112AABCDF90E4D4D /* StreamReader.swift in Sources */,
+				23F017B05545FD575EEC30F5CC983F68 /* StringBufferedReader.swift in Sources */,
+				BB92F61F04943B9F1C4CB2FBFEEEEC6E /* StringExtensions.swift in Sources */,
+				6D46244FC0DFE2019A1306CDAAF3CC2C /* URLBufferedReader.swift in Sources */,
+				FB905A7B4468B0D3FE7CAD87851703E3 /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72888C825FE9A06CA4BC018EA518F003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B94C3E2EDE20557AAC1EE484A9F7CD3 /* Pods-IQNativeVideoPlayerClient_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924BB93C4A7123037C0FFE3BF55B26F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29051E57ECA7E55755B73485624EA99A /* ActivityIndicatorView.swift in Sources */,
+				FE98720C2F67D79DC5CBC0AD5EFF907F /* BufferedReader.swift in Sources */,
+				A5452CB99BB67D3A52B235E35DAFCCA0 /* FileBufferedReader.swift in Sources */,
+				4CD6EAEC1A069F8035E217B7108DC351 /* IQAssetLoader.swift in Sources */,
+				3BFC233512BAAA8473F740936519387A /* IQPlayableAction.swift in Sources */,
+				672976C96D1AEFF996D8F812E354901E /* IQPlaybackOutputDelegate.swift in Sources */,
+				5B1C547CF5BFDF878D614B48AD346EEC /* IQPlaybackOutputManager.swift in Sources */,
+				6D2997B1EE96DBC84ED3873EB39E1DC2 /* IQPlayer.swift in Sources */,
+				9E3895DE5B7AA5122F8FF04232BEF666 /* IQPlayer+AccessLog.swift in Sources */,
+				60064E6E2ED15888ED7BB82D0B591B1B /* IQPlayer+ErrorLog.swift in Sources */,
+				D67E0531E3A423274EA0C780BBE51351 /* IQPlayer+Status.swift in Sources */,
+				6D1736C03BFF32257547EFC526E74CD8 /* IQPlayerItem.swift in Sources */,
+				4747A0A4219423FE8DE9461E3A26B197 /* IQPlayerItem+Bitrates.swift in Sources */,
+				139A1509BD71D5AA65BBB13BABE70EA0 /* IQPlayerItem+Live.swift in Sources */,
+				12D3829F670E7408CA9584C874AAA03A /* IQPlayerItem+MultiAudio.swift in Sources */,
+				9EA1E434505A0D7BD4AC6A96F255087E /* IQPlayerItem+Subtitles.swift in Sources */,
+				FA51768B9EE8543BA902B4413891BE13 /* IQPlayerItemDelegate.swift in Sources */,
+				4DD7EC1FDF475840000892977105620D /* IQPlayerItemOptions.swift in Sources */,
+				589571C7C16D09CBFDDE7DD3BF76F963 /* IQPlayerLifeCycleEvent.swift in Sources */,
+				26F6DEC632ED52D6894A47AB711C432A /* IQPlayerPerformance.swift in Sources */,
+				1EA46958AC78A7E9E954D96E46665808 /* IQPlayerSeek.swift in Sources */,
+				DC4E89FC8201723553A89EA9754994F2 /* IQPlayerVideoGravity.swift in Sources */,
+				40A7499690E0CE6C60AEBA80443CFB16 /* IQPlayerView.swift in Sources */,
+				D57932BEF942714989D58298D14497DB /* IQPlayerViewProtocol.swift in Sources */,
+				081BD43DC90CFFA57772EBAA6493A066 /* IQVideoPlayer-tvOS-dummy.m in Sources */,
+				54083585039E6425E44075E8B8328B17 /* ManifestBuilder.swift in Sources */,
+				24EF80B6A497854E42EF00318FEE1496 /* MasterPlaylist.swift in Sources */,
+				394394E59C69F7D36627E7BAFBCF35C1 /* MediaPlaylist.swift in Sources */,
+				BF99D2420790E5F357EC518E980005A4 /* MediaSegment.swift in Sources */,
+				1EA1A5922BF201BA600B782F4169E3FD /* NSURLExtension.swift in Sources */,
+				C27EA13E7E097548FF7CCBA5E6184CE4 /* ReaderBuilder.swift in Sources */,
+				16D20971F27888A9940B6FAEEDDF3318 /* StreamReader.swift in Sources */,
+				AB3284C05EDD89EC6A8E4F077E29D0F7 /* StringBufferedReader.swift in Sources */,
+				55BCEF127EF7DA0CE4FBAF7555A29609 /* StringExtensions.swift in Sources */,
+				7C2DAA25BA7A45CD88EC101E99BA9316 /* URLBufferedReader.swift in Sources */,
+				5A7A73B90C31604815C4BDB139900F87 /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09F5AB995E57476E38124D988831D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE26231517E65E34680A6C0421B83A9 /* IQNativePlayer.swift in Sources */,
+				53CF5EAF580B263CCFC32F5CF8BA665B /* IQNativePlayer+PlaybackDelegate.swift in Sources */,
+				4ABCFE9722F4580F23573723EDF29115 /* IQNativeVideoPlayerClient-iOS-dummy.m in Sources */,
+				40F00E8976F557798F05DA4B0DB0C0F9 /* IQNativeVideoPlayerOutput.swift in Sources */,
+				80BD8AFBD8FC9981D7939653B5AD5AE1 /* Metadata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72CEABC88B332D31F6070C464AA7CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D206FE3C58F15C22EEA8014EF3AB079 /* Pods-TVOS-SampleApplication-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD7DCF86FE2CDAF3D4C328CABA9216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7299D3BF7008202D6DABC73EFED2E6 /* IQNativePlayer.swift in Sources */,
+				DFA72F5635D9B55B73B2A487D90E2F9D /* IQNativePlayer+PlaybackDelegate.swift in Sources */,
+				FFE71F27AEB6BCE31BD88409A3AA4A5F /* IQNativeVideoPlayerClient-tvOS-dummy.m in Sources */,
+				B0091181076C0D1C91F9B75F765E0027 /* IQNativeVideoPlayerOutput.swift in Sources */,
+				AC322593D168986F5027DBD55D389769 /* Metadata.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DFF85C19E56CA175291F7CEE72259EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQVideoPlayer-iOS";
+			target = 1E4278B35B8A3F04D252752CB4E45081 /* IQVideoPlayer-iOS */;
+			targetProxy = B575326E07C5A6BC039D546C8A421418 /* PBXContainerItemProxy */;
+		};
+		3101AA8EA6CDB5CF5E869C1ED2683145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQVideoPlayer-iOS";
+			target = 1E4278B35B8A3F04D252752CB4E45081 /* IQVideoPlayer-iOS */;
+			targetProxy = 4B2E8F422AA9679EEEA287D74A74BA7A /* PBXContainerItemProxy */;
+		};
+		340BB4FBE37D109A8D6678FEFE55C4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQVideoPlayer-tvOS";
+			target = 4715E48B59737C74FCF22127CAB45EE0 /* IQVideoPlayer-tvOS */;
+			targetProxy = 7D8CEE8CF1D9DB36CA11C368FDD6AECF /* PBXContainerItemProxy */;
+		};
+		84F8E481D8E70EAD542558E40312D611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQVideoPlayer-tvOS";
+			target = 4715E48B59737C74FCF22127CAB45EE0 /* IQVideoPlayer-tvOS */;
+			targetProxy = 460E437B83230B726218360CDF254171 /* PBXContainerItemProxy */;
+		};
+		8BBA29E0EC6757818113D987D09A0406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQNativeVideoPlayerClient-iOS";
+			target = F7B686A64289D16352B0611A49AD4C07 /* IQNativeVideoPlayerClient-iOS */;
+			targetProxy = DE93F92F870DB449BB12329C08231AA7 /* PBXContainerItemProxy */;
+		};
+		FC5E644359C1891A389D790F4A54ACEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IQNativeVideoPlayerClient-tvOS";
+			target = F7D496C715CCCA5F2295EE716B551EAE /* IQNativeVideoPlayerClient-tvOS */;
+			targetProxy = F16820DA196DA8987E4953C776B88628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04497CD81C2A2B8443A8B7660F1E5E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CFD025287562FE3CED01DD06B85A2A /* Pods-IQNativeVideoPlayerClient_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		255B55FB9671AF1A1D86AA9CE2E3937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E9F26041BC138AF6B0EC754CC7E35F /* IQVideoPlayer-iOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQVideoPlayer-iOS/IQVideoPlayer-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQVideoPlayer-iOS/IQVideoPlayer-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQVideoPlayer-iOS/IQVideoPlayer-iOS.modulemap";
+				PRODUCT_MODULE_NAME = IQVideoPlayer;
+				PRODUCT_NAME = IQVideoPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AB615518EED442D09AF66B4AD9827CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D421F8DE8C5D117437FBDBD81F90D6 /* IQNativeVideoPlayerClient-iOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQNativeVideoPlayerClient-iOS/IQNativeVideoPlayerClient-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQNativeVideoPlayerClient-iOS/IQNativeVideoPlayerClient-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQNativeVideoPlayerClient-iOS/IQNativeVideoPlayerClient-iOS.modulemap";
+				PRODUCT_MODULE_NAME = IQNativeVideoPlayerClient;
+				PRODUCT_NAME = IQNativeVideoPlayerClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F4673A4BD590D656F51E6994CD6F44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CCFB74E7A2131826F9416430955EDF /* IQNativeVideoPlayerClient-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = IQNativeVideoPlayerClient;
+				PRODUCT_NAME = IQNativeVideoPlayerClient;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		399653C9AC9E61585A41ED0985E193C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CCFDAA6B7B4E951501016DC3F5FB50 /* Pods-TVOS-SampleApplication.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DD045430C748D0236BE45A510A50C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		71BB367EED130261E372BCB0FBFD343C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E67C56A29E266FC0AF38B313DC75A60 /* Pods-TVOS-SampleApplication.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A458D00143B12727D17E7BC15A931A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53CFF9BD94EB7285F8BC52DCEF12FC9A /* IQVideoPlayer-iOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQVideoPlayer-iOS/IQVideoPlayer-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQVideoPlayer-iOS/IQVideoPlayer-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQVideoPlayer-iOS/IQVideoPlayer-iOS.modulemap";
+				PRODUCT_MODULE_NAME = IQVideoPlayer;
+				PRODUCT_NAME = IQVideoPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		889884BFC8916BEEF4F6AD1013126232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2463E1668D03EBA62ACD20467554FB0A /* IQNativeVideoPlayerClient-iOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQNativeVideoPlayerClient-iOS/IQNativeVideoPlayerClient-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQNativeVideoPlayerClient-iOS/IQNativeVideoPlayerClient-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQNativeVideoPlayerClient-iOS/IQNativeVideoPlayerClient-iOS.modulemap";
+				PRODUCT_MODULE_NAME = IQNativeVideoPlayerClient;
+				PRODUCT_NAME = IQNativeVideoPlayerClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95CD00F13C4D0664ED1D39D29FC73D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0C1708A43A8B09570CF6D71D3C3691 /* IQVideoPlayer-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQVideoPlayer-tvOS/IQVideoPlayer-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = IQVideoPlayer;
+				PRODUCT_NAME = IQVideoPlayer;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95D030E8CC6D126CB2D8FD494E535AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F7DECCFD5C8D556B6D760B8BEB0CB6 /* IQNativeVideoPlayerClient-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = IQNativeVideoPlayerClient;
+				PRODUCT_NAME = IQNativeVideoPlayerClient;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B51C8D0F5F56E9D07C005228E5C23B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Release;
+		};
+		EF9202FFF7ECE122149060F53ACDE498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464C0F1F5A9EFDE5BB6962E8E027CE41 /* Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFB02684590593CD424A20C1219AB84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B8C5D6BC4B5E5EE3F1F07EBFBDABAB /* IQVideoPlayer-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQVideoPlayer-tvOS/IQVideoPlayer-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQVideoPlayer-tvOS/IQVideoPlayer-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = IQVideoPlayer;
+				PRODUCT_NAME = IQVideoPlayer;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D9B8838875B8DAC1EBBA73F6B6699AE /* Build configuration list for PBXNativeTarget "Pods-TVOS-SampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399653C9AC9E61585A41ED0985E193C2 /* Debug */,
+				71BB367EED130261E372BCB0FBFD343C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD045430C748D0236BE45A510A50C48 /* Debug */,
+				B51C8D0F5F56E9D07C005228E5C23B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF6A42A5656EAD237BA835AF14BF219 /* Build configuration list for PBXNativeTarget "IQNativeVideoPlayerClient-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889884BFC8916BEEF4F6AD1013126232 /* Debug */,
+				2AB615518EED442D09AF66B4AD9827CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825770B086391A46F7571F3AE39C2DBA /* Build configuration list for PBXNativeTarget "Pods-IQNativeVideoPlayerClient_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9202FFF7ECE122149060F53ACDE498 /* Debug */,
+				04497CD81C2A2B8443A8B7660F1E5E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A10E534AE9171A8DCD6FCE7C23EA976 /* Build configuration list for PBXNativeTarget "IQVideoPlayer-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CD00F13C4D0664ED1D39D29FC73D64 /* Debug */,
+				FFB02684590593CD424A20C1219AB84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E801A08474F8EA3EB49BE880C07AC7 /* Build configuration list for PBXNativeTarget "IQNativeVideoPlayerClient-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D030E8CC6D126CB2D8FD494E535AF6 /* Debug */,
+				2F4673A4BD590D656F51E6994CD6F44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F723B5833660659D84ED1D3F38E271 /* Build configuration list for PBXNativeTarget "IQVideoPlayer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A458D00143B12727D17E7BC15A931A /* Debug */,
+				255B55FB9671AF1A1D86AA9CE2E3937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

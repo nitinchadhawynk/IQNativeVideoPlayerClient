@@ -1,0 +1,6 @@
+framework module IQNativeVideoPlayerClient {
+  umbrella header "IQNativeVideoPlayerClient-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
