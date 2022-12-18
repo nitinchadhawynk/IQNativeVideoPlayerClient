@@ -43,6 +43,7 @@ public class IQNativePlayer {
             .commonIdentifierTitle: metadata.title,
             .iTunesMetadataTrackSubTitle: metadata.subtitle,
             .commonIdentifierDescription: metadata.description,
+            .commonIdentifierArtwork: metadata.image,
             .iTunesMetadataContentRating: metadata.rating,
             .quickTimeMetadataGenre: metadata.genre
         ]
