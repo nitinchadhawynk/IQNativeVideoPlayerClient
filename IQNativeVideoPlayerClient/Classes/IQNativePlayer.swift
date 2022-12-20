@@ -21,8 +21,6 @@ public class IQNativePlayer {
         self.iqPlayer = IQPlayer(playerItem: playerItem,
                                  outputDelegate: self,
                                  isPlayerViewRequired: false)
-        
-        nativePlayerViewController = self.instantiatePlayerViewController()
     }
     
     public func instantiatePlayerViewController() -> AVPlayerViewController? {
@@ -30,6 +28,7 @@ public class IQNativePlayer {
         guard let player = iqPlayer.getAVPlayerIfAvailable() else {
             return nil
         }
+        self.nativePlayerViewController = playerViewController
         playerViewController.player = player
         return playerViewController
     }
