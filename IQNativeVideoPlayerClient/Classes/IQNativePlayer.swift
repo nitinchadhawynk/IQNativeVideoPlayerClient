@@ -57,6 +57,10 @@ public class IQNativePlayer {
         item.extendedLanguageTag = "und"
         return item.copy() as! AVMetadataItem
     }
+    
+    public func getPlayerAccessLog() -> AVPlayerItemAccessLog? {
+       return self.iqPlayer.getAVPlayerIfAvailable()?.currentItem?.accessLog()
+    }
 }
 
 
