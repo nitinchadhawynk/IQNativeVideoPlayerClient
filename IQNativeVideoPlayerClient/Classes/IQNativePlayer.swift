@@ -11,7 +11,7 @@ import AVKit
 
 public class IQNativePlayer {
     
-    var iqPlayer: IQPlayer!
+    public var iqPlayer: IQPlayer!
     
     public weak var delegate: IQNativeVideoPlayerOutput?
     
@@ -23,6 +23,10 @@ public class IQNativePlayer {
                                  isPlayerViewRequired: false)
     }
     
+    public init() {
+        self.iqPlayer = IQPlayer(outputDelegate: self, initiatePlayerLayer: false)
+    }
+    
     public func instantiatePlayerViewController() -> AVPlayerViewController? {
         let playerViewController = AVPlayerViewController()
         guard let player = iqPlayer.getAVPlayerIfAvailable() else {
@@ -31,6 +35,10 @@ public class IQNativePlayer {
         self.nativePlayerViewController = playerViewController
         playerViewController.player = player
         return playerViewController
+    }
+    
+    public func getAVPlayer() -> AVPlayer? {
+        return self.iqPlayer.getAVPlayerIfAvailable()
     }
     
     public func addMetaDataToPlayer(metadata: Metadata) {
