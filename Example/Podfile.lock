@@ -1,5 +1,5 @@
 PODS:
-  - IQNativeVideoPlayerClient (1.0.3):
+  - IQNativeVideoPlayerClient (1.0.5):
     - IQVideoPlayer (= 1.0.8.0)
   - IQVideoPlayer (1.0.8.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IQNativeVideoPlayerClient: 8bd9f2d753f706206f87a12e9e4aa26cff44e2f4
+  IQNativeVideoPlayerClient: e910aab9e1205bce24598f3397838ee4299bf3cf
   IQVideoPlayer: 0efcf1e56f2597dafb7233f6bc800b8f719c91ef
 
 PODFILE CHECKSUM: a29191172327857419fd5d0bc52c3ee9bd5fc177
