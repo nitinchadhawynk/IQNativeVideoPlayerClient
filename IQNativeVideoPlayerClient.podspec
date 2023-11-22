@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IQNativeVideoPlayerClient'
-  s.version          = '1.0.3'
+  s.version          = '1.0.5'
   s.summary          = 'IQNativeVideoPlayerClient provides a layer of Video Player.'
   s.description      = 'IQNativeVideoPlayerClient provides a layer of Video Player with bunch of capabilities like MultiAudio, Subtitles, ErrorHandling and more'
   s.homepage         = 'https://github.com/nitinchadhawynk/IQNativeVideoPlayerClient'
@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'IQVideoPlayer'
+  s.dependency 'IQVideoPlayer', '1.0.8.0'
 end

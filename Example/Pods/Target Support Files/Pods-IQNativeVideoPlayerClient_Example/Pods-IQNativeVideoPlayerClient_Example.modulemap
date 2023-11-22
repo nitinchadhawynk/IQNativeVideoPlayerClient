@@ -1,6 +1,0 @@
-framework module Pods_IQNativeVideoPlayerClient_Example {
-  umbrella header "Pods-IQNativeVideoPlayerClient_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
