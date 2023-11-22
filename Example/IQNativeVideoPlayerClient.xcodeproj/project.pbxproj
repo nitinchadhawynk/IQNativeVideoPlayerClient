@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178BF850698D8A22C974D8AA /* Pods_TVOS_SampleApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227F8C40D1F7643083DB251C /* Pods_TVOS_SampleApplication.framework */; };
-		2C5BD22BBD5028D56331BB5C /* Pods_IQNativeVideoPlayerClient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AB45952DDAB98C1949B3B0 /* Pods_IQNativeVideoPlayerClient_Example.framework */; };
 		36C6FFF2283451D000D39092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6FFF1283451D000D39092 /* AppDelegate.swift */; };
 		36C6FFF4283451D000D39092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6FFF3283451D000D39092 /* ViewController.swift */; };
 		36C6FFF7283451D000D39092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C6FFF5283451D000D39092 /* Main.storyboard */; };
@@ -24,11 +22,6 @@
 /* Begin PBXFileReference section */
 		04B93208CC6FB52DFEC3F5D4 /* IQNativeVideoPlayerClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IQNativeVideoPlayerClient.podspec; path = ../IQNativeVideoPlayerClient.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		149A993FC50F9D5ADB0E798F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		227F8C40D1F7643083DB251C /* Pods_TVOS_SampleApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVOS_SampleApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23CB22240F3F6D5784C2C014 /* Pods-IQNativeVideoPlayerClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQNativeVideoPlayerClient_Example.release.xcconfig"; path = "Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example.release.xcconfig"; sourceTree = "<group>"; };
-		25AB45952DDAB98C1949B3B0 /* Pods_IQNativeVideoPlayerClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQNativeVideoPlayerClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D7E783BA6C5005E9981D100 /* Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig"; path = "Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		31AC7C749F2A598010571405 /* Pods-TVOS-SampleApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOS-SampleApplication.debug.xcconfig"; path = "Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		36C6FFEF283451D000D39092 /* TVOS-SampleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVOS-SampleApplication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C6FFF1283451D000D39092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C6FFF3283451D000D39092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +38,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8CE111F001D25AB64EEE4A62 /* Pods-TVOS-SampleApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVOS-SampleApplication.release.xcconfig"; path = "Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178BF850698D8A22C974D8AA /* Pods_TVOS_SampleApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5BD22BBD5028D56331BB5C /* Pods_IQNativeVideoPlayerClient_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +73,6 @@
 		3A8B7D3E423EFE6B31A25621 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D7E783BA6C5005E9981D100 /* Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig */,
-				23CB22240F3F6D5784C2C014 /* Pods-IQNativeVideoPlayerClient_Example.release.xcconfig */,
-				31AC7C749F2A598010571405 /* Pods-TVOS-SampleApplication.debug.xcconfig */,
-				8CE111F001D25AB64EEE4A62 /* Pods-TVOS-SampleApplication.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -100,7 +86,6 @@
 				36C6FFF0283451D000D39092 /* TVOS-SampleApplication */,
 				607FACD11AFB9204008FA782 /* Products */,
 				3A8B7D3E423EFE6B31A25621 /* Pods */,
-				E95E5802ABA727AF816D543E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,15 +147,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		E95E5802ABA727AF816D543E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				25AB45952DDAB98C1949B3B0 /* Pods_IQNativeVideoPlayerClient_Example.framework */,
-				227F8C40D1F7643083DB251C /* Pods_TVOS_SampleApplication.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,11 +154,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36C6FFFF283451D200D39092 /* Build configuration list for PBXNativeTarget "TVOS-SampleApplication" */;
 			buildPhases = (
-				3287B2386E6933089E8089D1 /* [CP] Check Pods Manifest.lock */,
 				36C6FFEB283451D000D39092 /* Sources */,
 				36C6FFEC283451D000D39092 /* Frameworks */,
 				36C6FFED283451D000D39092 /* Resources */,
-				F167AF58D8EBAF9458A71424 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,11 +171,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "IQNativeVideoPlayerClient_Example" */;
 			buildPhases = (
-				E825E00949F5FBA38A51EDF2 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				8C5E66AA70232C1D90C431D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,93 +249,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		3287B2386E6933089E8089D1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TVOS-SampleApplication-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C5E66AA70232C1D90C431D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQNativeVideoPlayerClient-iOS/IQNativeVideoPlayerClient.framework",
-				"${BUILT_PRODUCTS_DIR}/IQVideoPlayer-iOS/IQVideoPlayer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQNativeVideoPlayerClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQVideoPlayer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQNativeVideoPlayerClient_Example/Pods-IQNativeVideoPlayerClient_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E825E00949F5FBA38A51EDF2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IQNativeVideoPlayerClient_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F167AF58D8EBAF9458A71424 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQNativeVideoPlayerClient-tvOS/IQNativeVideoPlayerClient.framework",
-				"${BUILT_PRODUCTS_DIR}/IQVideoPlayer-tvOS/IQVideoPlayer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQNativeVideoPlayerClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQVideoPlayer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVOS-SampleApplication/Pods-TVOS-SampleApplication-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		36C6FFEB283451D000D39092 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -423,7 +308,6 @@
 /* Begin XCBuildConfiguration section */
 		36C6FFFD283451D200D39092 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31AC7C749F2A598010571405 /* Pods-TVOS-SampleApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,7 +346,6 @@
 		};
 		36C6FFFE283451D200D39092 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE111F001D25AB64EEE4A62 /* Pods-TVOS-SampleApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -597,7 +480,6 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D7E783BA6C5005E9981D100 /* Pods-IQNativeVideoPlayerClient_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5BFPPV872;
@@ -614,7 +496,6 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23CB22240F3F6D5784C2C014 /* Pods-IQNativeVideoPlayerClient_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5BFPPV872;
