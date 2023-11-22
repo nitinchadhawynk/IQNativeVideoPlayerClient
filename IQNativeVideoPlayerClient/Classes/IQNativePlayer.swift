@@ -67,7 +67,11 @@ public class IQNativePlayer {
     }
     
     public func getPlayerAccessLog() -> AVPlayerItemAccessLog? {
-       return self.iqPlayer.getAVPlayerIfAvailable()?.currentItem?.accessLog()
+        return self.iqPlayer.getAVPlayerIfAvailable()?.currentItem?.accessLog()
+    }
+    
+    public func getAvailableAudioLanguages() -> [IQAudio]? {
+        iqPlayer.playerItem?.getAvailableAudios()
     }
 }
 
