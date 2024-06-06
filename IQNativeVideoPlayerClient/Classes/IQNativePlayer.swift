@@ -24,7 +24,11 @@ public class IQNativePlayer {
     }
     
     public init() {
-        self.iqPlayer = IQPlayer(outputDelegate: self, initiatePlayerLayer: false)
+        self.iqPlayer = IQPlayer(outputDelegate: self)
+    }
+    
+    public func replaceCurrentPlayerItem(playerItem: IQPlayerItem) {
+        self.iqPlayer.replacePlayerItem(playerItem: playerItem)
     }
     
     public func instantiatePlayerViewController() -> AVPlayerViewController? {
